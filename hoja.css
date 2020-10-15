@@ -1,0 +1,79 @@
+body {
+  font-family: 'EB Garamond', serif;
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 2rem;
+}
+h1,
+h2,
+h3,
+h4,
+strong {
+  font-family: 'PT Sans', sans-serif;
+}
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 20px;
+}
+strong {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
+}
+span {
+  font-size: 16px;
+}
+img {
+  width: 80px;
+}
+.img-photo {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+ul {
+  padding: 0;
+}
+hr {
+  width: 80%;
+}
+p {
+  font-weight: 500;
+}
+
+aside {
+  margin-right: 2rem;
+  background-color: rgb(59, 191, 195);
+  color: white;
+  height: 100vh;
+}
+.content-aside {
+  padding-left: 2rem;
+}
+section {
+  margin-bottom: 21px;
+}
+.education p > strong:first-child,
+.experience strong {
+  color: rgb(59, 191, 195);
+}
+.certificates ul {
+  display: flex;
+  justify-content: space-between;
+}
+.certificates ul li {
+  list-style: none;
+}
+.certificates ul li p {
+  text-align: center;
+}
